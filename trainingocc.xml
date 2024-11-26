@@ -1,0 +1,13 @@
+ <bean class="com.training.occ.dto.document.TrainingDocumentWsDTO">
+                <property name="code" type="java.lang.String"/>
+                <property name="docName" type="java.lang.String"/>
+                <property name="keywords" type="java.lang.String"/>
+                <property name="url" type="java.lang.String"/>
+                <property name="docType" type="java.lang.String"/>
+                <property name="language" type="java.lang.String"/>
+                <property name="visibility" type="Boolean"/>
+                <property name="documentAge" type="java.lang.Integer"/>
+            </bean>
+            <bean class="com.training.occ.dto.document.TrainingDocumentListWsDTO">
+                <property name="documents" type="java.util.List&lt;com.training.occ.dto.document.TrainingDocumentWsDTO>"/>
+            </bean>

@@ -1,0 +1,7 @@
+<bean id="trainingDocumentService" class="com.training.core.documents.service.impl.TrainingDocumentServiceImpl">
+                <property name="trainingDocumentDao" ref="trainingDocumentDao"/>
+            </bean>
+        
+            <bean id="trainingDocumentDao" class="com.training.core.documents.dao.impl.TrainingDocumentDaoImpl">
+                <property name="flexibleSearchService" ref="flexibleSearchService"/>
+            </bean>
